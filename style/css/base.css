@@ -1,0 +1,54 @@
+/**
+* author cxj cy-6368
+**/
+html, body, div, p, h1, h2, h3, h4, h5, h6 { padding: 0; margin: 0; }
+
+.ui-wrap { display: -webkit-box; -webkit-box-orient: vertical; -webkit-box-align: center; padding: 30px;}
+.context-wrap { display: -webkit-box; padding: 50px;}
+
+.cyou-logo-wrap, .wjc-logo-wrap {
+	width: 500px;
+	height: 500px;
+	display: -webkit-box;
+	-webkit-box-align: center; 
+	-webkit-box-pack: center; 
+	position: relative;
+}
+.cyou-logo-wrap {
+	background: #eee;
+}
+.wjc-logo-wrap {
+	background: #eee;
+}
+/*===========================================================*/
+header h1 { 
+	font-family: "Microsoft Yahei";
+	background: #666 -webkit-linear-gradient(-15deg,#666 5%,rgba(0,0,0,.7),rgba(0,0,0,.9),rgba(0,0,0,.7),#fff 10%) no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: cliptexttop 4s linear infinite;
+}
+header h2 { 
+	font-family: "Microsoft Yahei";
+	font-size: 12px;
+	text-align: right;
+	color: #999;
+}
+footer {
+	color: #999;
+	font-size: 12px;
+	font-family: Tahoma;
+}
+/**
+* css 3 animation
+******/
+@-webkit-keyframes cliptexttop{
+	0%{background-position:left 0;}
+	100%{background-position:1200px 0;}
+}
+
+@-webkit-keyframes rotateradius{
+	0%{-webkit-transform: rotate(0deg);}
+	100%{-webkit-transform: rotate(360deg);}
+}
+
