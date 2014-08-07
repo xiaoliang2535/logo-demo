@@ -1,0 +1,89 @@
+.logo-wrap {
+	width: 200px;
+	height: 200px;
+	-webkit-transform: rotate(0deg);
+}
+.logo-wrap:hover {
+	-webkit-transform: rotate(360deg);
+	-webkit-transition: -webkit-transform 1s linear;
+}
+.position-wrap {
+	position: relative;
+	left: 50px;
+}
+.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	overflow: hidden;
+	position: absolute
+}
+.left-bottom {
+	right: 43px;
+	top: 75px;
+}
+.right-bottom {
+	right: -43px;
+	top: 75px;
+}
+.left {
+	right: 43px;
+	top: 25px;
+	-webkit-transform: rotate(-60deg);
+}
+.right {
+	right: -43px;
+	top: 25px;
+	-webkit-transform: rotate(60deg);
+}
+.p0 {
+	-webkit-transform: rotate(0deg);
+	-webkit-transform-origin: bottom center;
+}
+.p1 {
+	-webkit-transform: rotate(60deg);
+	-webkit-transform-origin: bottom center;
+}
+.p2 {
+	-webkit-transform: rotate(120deg);
+	-webkit-transform-origin: bottom center;
+}
+.p3 {
+	-webkit-transform: rotate(180deg);
+	-webkit-transform-origin: bottom center;
+}
+.p4 {
+	-webkit-transform: rotate(240deg);
+	-webkit-transform-origin: bottom center;
+}
+.p5 {
+	-webkit-transform: rotate(300deg);
+	-webkit-transform-origin: bottom center;
+}
+.purple {
+ 	background:-webkit-gradient(linear, 0 0.5%, 0 70%, from(#660099), to(rgba(255, 255, 255, 0.5)));  
+}
+.col-blue {
+	background: -webkit-gradient(radial,center bottom,0, center bottom,100,from(#fff), to(#2C1F86), color-stop(49%, #3853A2), color-stop(50%,#374198));
+}
+.col-lightblue {
+	background: -webkit-gradient(radial,center bottom,0, center bottom,100,from(#fff), to(#0055A7), color-stop(49%, #03A0E8), color-stop(50%,#0085D0));
+}
+.col-green {
+	background: -webkit-gradient(radial,center bottom,0, center bottom,100,from(#fff), to(#02A23E), color-stop(49%, #21AB3C), color-stop(50%,#8DC21F));
+}
+.col-yellow {
+	background: -webkit-gradient(radial,center bottom,0, center bottom,100,from(#fff), to(#EF8300), color-stop(49%, #FBC703), color-stop(50%,#FFE100));
+}
+.col-orange {
+	background: -webkit-gradient(radial,center bottom,0, center bottom,100,from(#fff), to(#E8350C), color-stop(49%, #EB6400), color-stop(50%,#F08200));
+}
+.col-red {
+	background: -webkit-gradient(radial,center bottom,0, center bottom,100,from(#fff), to(#BF0008), color-stop(49%, #E94A41), color-stop(50%,#E6003C));
+}
+.col-fff {
+	background: #fff;
+}
+.p1 .left-bottom {
+	z-index: 10;
+}
