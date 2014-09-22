@@ -1,0 +1,88 @@
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+
+html, body {
+	height: 100%;
+}
+.g-body {
+	height: 100%;
+	box-sizing: border-box;
+	padding: 20px 10px;
+	background: -moz-linear-gradient(top left, #927a8f, #b2a0b2, #dfd1d9, #ebe3df, #f0d4d1);
+	background: -o-linear-gradient(top left, #927a8f, #b2a0b2, #dfd1d9, #ebe3df, #f0d4d1);
+	background: -webkit-linear-gradient(top left, #927a8f, #b2a0b2, #dfd1d9, #ebe3df, #f0d4d1);
+	background: linear-gradient(top left, #a48ea1, #927a8f, #b2a0b2, #dfd1d9, #ebe3df, #f0d4d1);
+}
+#logo-wrap {
+	font-size: 0;
+	height: 36px;
+	background: url(../img/logo.png) no-repeat;
+	background-size:  180px;
+}
+#body-wrap {
+	margin-top: 20px;;
+}
+#body-wrap header {
+	line-height: 37px;
+	height: 37px;
+	text-indent: 20px;
+	background: #fff;
+	border-bottom: 1px solid #e4d7d7;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-size: 17px;
+	color: #303030;
+	font-family: "microsoft yahei";
+}
+#body-wrap article {
+	box-sizing: border-box;
+	padding: 15px;
+	height: 290px;
+	background: #fcfaf9;
+}
+#body-wrap footer {
+	height: 43px;
+	background: #fcf9f9;
+	border-top: 1px solid #dcd9d9;
+	border-bottom: 1px solid #cfc4c2;
+}
+#body-wrap .m-quesback {
+	float: right;
+	margin-right: 20px;
+	background-size:  41px 15px;
+	text-decoration: none;
+	color: #999;
+	font-size: 12px;
+	line-height: 40px;
+}
+#body-wrap .m-quesback:hover {
+	color: #f37744;
+}
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../img/icon.png) no-repeat;
+}
+.icon-airplane {
+	width: 23px;
+	height: 20px;
+	background-size: 42px;
+	background-position: 0 1px;
+}
+#body-wrap .m-quesback:hover .icon-airplane{
+	background-position: -23px 1px;
+}
+
+.m-gamelist {
+	font-size: 0;
+	text-align: justify;
+}
+.m-gamelist li {
+	display: inline-block;
+	box-sizing: border-box;
+	margin-bottom: 3px;
+	width: 88px;
+	height: 60px;
+	background: black;
+	//background: url(../img/game_logo.jpg) no-repeat;
+	//background-size: 280px;
+}
