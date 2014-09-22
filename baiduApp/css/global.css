@@ -21,6 +21,9 @@ html, body {
 #body-wrap {
 	margin-top: 20px;;
 }
+
+/*----------------------------------*/
+/* header */
 #body-wrap header {
 	line-height: 37px;
 	height: 37px;
@@ -33,12 +36,46 @@ html, body {
 	color: #303030;
 	font-family: "microsoft yahei";
 }
+
+/*----------------------------------*/
+/* article */
 #body-wrap article {
 	box-sizing: border-box;
-	padding: 15px;
+	padding: 20px;
 	height: 290px;
 	background: #fcfaf9;
 }
+
+/* gameList */
+.m-gamelist {
+	font-size: 0;
+}
+.m-gamelist li {
+	width: 32%;
+	max-width: 120px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #dbdbdb;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.m-gamelist li img {
+	box-sizing: border-box;
+	width: 100%;
+	max-height: 80px;
+	border: 1px solid #fff;
+}
+
+/* 自适应 */
+@media screen and (min-width: 310px) and (max-width: 550px) {
+	.m-gamelist li:nth-child(3n) {
+		margin-right: 0;
+	}
+}
+
+/*----------------------------------*/
+/* footer */
 #body-wrap footer {
 	height: 43px;
 	background: #fcf9f9;
@@ -70,19 +107,4 @@ html, body {
 }
 #body-wrap .m-quesback:hover .icon-airplane{
 	background-position: -23px 1px;
-}
-
-.m-gamelist {
-	font-size: 0;
-	text-align: justify;
-}
-.m-gamelist li {
-	display: inline-block;
-	box-sizing: border-box;
-	margin-bottom: 3px;
-	width: 88px;
-	height: 60px;
-	background: black;
-	//background: url(../img/game_logo.jpg) no-repeat;
-	//background-size: 280px;
 }
